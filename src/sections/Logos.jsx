@@ -1,5 +1,4 @@
 import React from 'react';
-// import './Logos.css'; // Make sure to create this CSS file
 
 const logoIconsList = [
   {

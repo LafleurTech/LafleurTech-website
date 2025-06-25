@@ -10,14 +10,13 @@ const Contact = () => {
         <div className="absolute top-1/2 left-0 w-20 h-20 sm:w-32 sm:h-32 md:w-48 md:h-48 lg:w-[25rem] lg:h-[25rem] bg-white/1 rounded-full blur-xl sm:blur-[40px] lg:blur-[60px]"></div>
       </div>
       
-      {/* Main content container */}
+
       <div className="relative w-full h-full flex items-center justify-center px-8 sm:px-12 md:px-16 lg:px-20 xl:px-24">
         <div className="w-full max-w-7xl">
           
-          {/* Grid layout for two offices */}
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 xl:gap-32">
             
-            {/* Main Office */}
             <div className="space-y-8 sm:space-y-10 md:space-y-12">
               <div>
                 <h3 className="text-white/60 text-sm sm:text-base md:text-lg lg:text-xl font-light tracking-wider uppercase mb-4 sm:mb-6">
@@ -31,10 +30,10 @@ const Contact = () => {
                 </p>
               </div>
               
-              {/* Email button */}
+
               <div>
                 <a 
-                  href="mailto:Lafleur Tech.com"
+                  href="mailto:LafleurTech.com"
                   className="inline-block group"
                 >
                   <div className="border border-white/30 rounded-full px-6 sm:px-8 md:px-10 lg:px-12 py-3 sm:py-4 md:py-5 lg:py-6 hover:border-white/60 transition-all duration-300 hover:scale-105 transform">
@@ -46,7 +45,7 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Second Office */}
+
             <div className="space-y-8 sm:space-y-10 md:space-y-12">
               <div>
                 <h3 className="text-white/60 text-sm sm:text-base md:text-lg lg:text-xl font-light tracking-wider uppercase mb-4 sm:mb-6">
@@ -60,10 +59,10 @@ const Contact = () => {
                 </p>
               </div>
               
-              {/* Phone button */}
+
               <div>
                 <a 
-                  href="tel:+13015499309"
+                  href="tel:+919650461197"
                   className="inline-block group"
                 >
                   <div className="border border-white/30 rounded-full px-6 sm:px-8 md:px-10 lg:px-12 py-3 sm:py-4 md:py-5 lg:py-6 hover:border-white/60 transition-all duration-300 hover:scale-105 transform">
@@ -77,7 +76,6 @@ const Contact = () => {
 
           </div>
           
-          {/* Optional: Additional contact info or CTA */}
           <div className="text-center mt-20 sm:mt-24 md:mt-28 lg:mt-32 xl:mt-40">
             <div className="w-full h-px bg-gradient-to-r from-transparent via-white/20 to-transparent mb-8 sm:mb-10 md:mb-12"></div>
             <p className="text-white/40 text-sm sm:text-base md:text-lg font-light tracking-wide">

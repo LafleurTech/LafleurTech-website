@@ -6,7 +6,6 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Button from '../components/Button';
 import AnimatedCounter from '../components/AnimatedCounter';
 
-// Register GSAP plugins
 gsap.registerPlugin(ScrollTrigger);
 
 const words = [
@@ -50,13 +49,10 @@ const Hero = () => {
           <div className="max-w-7xl mx-auto">
 
 
-            {/* home  */}
             <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between gap-12 lg:gap-8">
               
-              {/* LEFT: Hero content */}
               <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start text-left lg:text-left">
                 <div className='flex flex-col gap-5 sm:gap-6 md:gap-7'>
-                  {/* hilighted text */}
                   <div className='hero-text flex flex-col justify-center text-[30px] sm:text-[36px] md:text-[46px]  lg:text-[54px] xl:text-[60px] font-semibold relative z-10 pointer-events-none'>
                     <h1>
                       Making
@@ -82,14 +78,12 @@ const Hero = () => {
                     <h1>that Deliver Results</h1>
                   </div>
 
-                  {/* less hifhlighted title */}
                   <p className='text-gray-300 text-base sm:text-lg md:text-xl relative z-10 max-w-[540px] mx-auto lg:mx-0'>
                     Hi, We're Lafleur Tech, a problem solving company based in Delhi
                     {' '}<span className="hidden sm:inline">with a passion for making people's life easier.</span>
                     <span className="inline sm:hidden">with a passion for innovation.</span>
                   </p>
 
-                  {/*about us Button */}
                   <div className="mt-3 sm:mt-5 md:mt-6">
                     <Button
                       text='About Us'
@@ -100,7 +94,6 @@ const Hero = () => {
                 </div>
               </div>
               
-              {/* RIGHT: Hero Image */}
               <div className="hero-image w-full sm:w-[90%] md:w-[80%] lg:w-1/2 mt-4 lg:mt-0">
                 <div className='relative w-full h-full flex items-center justify-center lg:justify-end'>
                   <div className='w-full lg:w-[90%] xl:w-[85%] rounded-2xl overflow-hidden'>
@@ -118,11 +111,9 @@ const Hero = () => {
           </div>
         </div>
         
-        {/* Important: Bottom padding to make room for stats */}
         <div className="mt-16 sm:mt-20 md:mt-24 lg:mt-28"></div>
       </section>
 
-      {/* Animated counter component */}
       <AnimatedCounter />
     </>
   );

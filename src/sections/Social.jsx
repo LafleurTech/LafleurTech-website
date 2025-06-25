@@ -32,18 +32,18 @@ const menuItems = [
 const Social = () => {
   return (
     <section id='contact' className='relative bg-black -mt-40 -py-40 py-8 sm:py-12 md:py-16 overflow-hidden'>
-      {/* Moving text container */}
       <div className='relative'>
-        {/* Single row - moving right */}
         <div className='flex whitespace-nowrap animate-scroll-right'>
           <div className='flex items-center space-x-8 sm:space-x-12 md:space-x-16 lg:space-x-20'>
-            {/* Repeat the pattern multiple times for seamless loop */}
+          
+          
+          {/* loop */}
             {[...Array(8)].map((_, index) => (
               <div
                 key={index}
                 className='flex items-center space-x-8 pb-7 sm:space-x-12 md:space-x-16 lg:space-x-20'
               >
-                {/* Animated Circular badge */}
+                {/* circular wheel */}
                 <div className='flex-shrink-0 w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 relative animate-spin-slow'>
                   
                   <div className='absolute inset-0 border-2 border-white rounded-full animate-rotate-reverse'></div>

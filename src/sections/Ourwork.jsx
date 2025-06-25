@@ -43,12 +43,12 @@ const Ourwork = () => {
   const projectRefs = useRef([]);
   
   useGSAP(() => {
-    // Responsive animation setup
+
     const mm = gsap.matchMedia();
     
-    // Desktop & tablet animations (screens larger than 768px)
     mm.add("(min-width: 768px)", () => {
-      // Stagger in projects on scroll
+
+
       projectRefs.current.forEach((project) => {
         gsap.fromTo(
           project,
@@ -67,7 +67,8 @@ const Ourwork = () => {
           }
         );
         
-        // Animate project details
+
+
         gsap.fromTo(
           project.querySelectorAll(".project-detail"),
           { y: 30, opacity: 0 },
@@ -86,7 +87,7 @@ const Ourwork = () => {
           }
         );
         
-        // Animate image
+
         gsap.fromTo(
           project.querySelector(".project-image-container"),
           { scale: 0.9, opacity: 0 },
@@ -106,9 +107,9 @@ const Ourwork = () => {
       });
     });
     
-    // Mobile-specific animations (screens smaller than 768px)
+
     mm.add("(max-width: 767px)", () => {
-      // Simpler animations for mobile
+
       projectRefs.current.forEach((project) => {
         gsap.fromTo(
           project,
@@ -128,7 +129,7 @@ const Ourwork = () => {
       });
     });
     
-    // Animate section heading (on all devices)
+
     gsap.fromTo(
       ".section-heading",
       { y: -50, opacity: 0 },
@@ -153,15 +154,14 @@ const Ourwork = () => {
   ref={sectionRef} 
   id="ourwork"
 className=" bg-black  text-white py-16 md:py-20 lg:py-24 relative overflow-hidden rounded-t-[60px] md:rounded-t-[60px] lg:rounded-t-[80px] mt-16"  style={{
-    marginTop: "-80px", // This creates the overlap effect
-    paddingTop: "80px"  // This adds extra space at the top to prevent content from being cut off
+    marginTop: "-80px", 
+    paddingTop: "80px"  
   }}
->      {/* Simple black background with minimal texture */}
+>   
       {/* <div className="absolute inset-0  bg-black"></div>
       <div className="absolute inset-0 bg-grid-pattern opacity-[0.02] pointer-events-none"></div> */}
       
       <div className="max-w-7xl mx-auto px-4 pt-1 sm:px-6 lg:px-8 relative z-10">
-        {/* Section header */}
         <div className="text-center mb-12 md:mb-16 lg:mb-20">
           <h2 className="section-heading text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 lg:mb-8 text-white">
             Our Premium Solutions
@@ -171,7 +171,7 @@ className=" bg-black  text-white py-16 md:py-20 lg:py-24 relative overflow-hidde
           </p>
         </div>
         
-        {/* Projects grid */}
+        {/* projects grid */}
         <div className="space-y-20 sm:space-y-24 md:space-y-32 lg:space-y-40">
           {projects.map((project, index) => (
             <div 
@@ -179,10 +179,8 @@ className=" bg-black  text-white py-16 md:py-20 lg:py-24 relative overflow-hidde
               ref={el => projectRefs.current[index] = el}
               className={`relative flex flex-col ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} items-center gap-8 md:gap-12`}
             >
-              {/* Project image with device frame */}
               <div className="project-image-container w-full md:w-1/2 relative mb-8 md:mb-0">
                 <div className="relative bg-black rounded-2xl md:rounded-3xl p-1 sm:p-2 border border-gray-800 shadow-xl">
-                  {/* Device frame - adaptive sizing */}
                   <div className="absolute top-0 left-0 right-0 h-6 sm:h-8 bg-zinc-900 rounded-t-2xl md:rounded-t-3xl flex items-center px-2 sm:px-4">
                     <div className="flex space-x-1.5 sm:space-x-2">
                       <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-red-500"></div>

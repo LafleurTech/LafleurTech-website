@@ -36,7 +36,7 @@ const About = () => {
   return (
     <section id="about" ref={sectionRef} className="relative py-16 md:py-24 bg-white rounded-t-[50px] md:rounded-t-[100px]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Header */}
+
         <div className="text-center mb-16 md:mb-24">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-black mb-4 inline-block relative">
             About <span className="text-black font-light">LafleurTech</span>
@@ -47,9 +47,9 @@ const About = () => {
           </p>
         </div>
         
-        {/* box Layout */}
+
         <div className="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-12 gap-4 md:gap-6">
-          {/* Overview Box */}
+
           <div className="bento-box bg-black text-white rounded-3xl p-8 md:p-10 lg:p-12 col-span-1 md:col-span-4 lg:col-span-6 row-span-1 md:row-span-2 h-auto md:h-[550px] lg:h-[575px] flex flex-col justify-between group transition-all duration-500 overflow-hidden relative hover:scale-[1.02] hover:shadow-2xl cursor-pointer">
             <div className="absolute top-0 right-0 w-32 h-32 bg-gray-800 rounded-full blur-3xl opacity-20 transform translate-x-1/2 -translate-y-1/2 group-hover:opacity-40 transition-opacity duration-500"></div>
             <div className="absolute bottom-0 left-0 w-40 h-40 bg-gray-800 rounded-full blur-3xl opacity-10 transform -translate-x-1/3 translate-y-1/3 group-hover:opacity-20 transition-opacity duration-500"></div>
@@ -81,7 +81,7 @@ const About = () => {
           </div>
           
         
-          {/*Vision Box */}
+
           <div className="bento-box bg-white text-black rounded-3xl p-8 border-2 border-black col-span-1 md:col-span-2 lg:col-span-3 overflow-hidden relative group transition-all duration-300 hover:scale-105 hover:shadow-xl cursor-pointer hover:border-gray-600">
             <div className="absolute -right-12 -top-12 w-24 h-24 bg-black opacity-5 rounded-full group-hover:opacity-10 group-hover:scale-125 transition-all duration-500"></div>
             <div className="relative">
@@ -107,7 +107,7 @@ const About = () => {
          
          
          
-          {/* Mission Box */}
+
           <div className="bento-box bg-white text-black rounded-3xl p-8 border-2 border-black col-span-1 md:col-span-2 lg:col-span-3 relative overflow-hidden group transition-all duration-300 hover:scale-105 hover:shadow-xl cursor-pointer hover:border-gray-600">
             <div className="absolute -left-12 -bottom-12 w-24 h-24 bg-black opacity-5 rounded-full group-hover:opacity-10 group-hover:scale-125 transition-all duration-500"></div>
             <div className="relative">
@@ -125,7 +125,7 @@ const About = () => {
             </div>
           </div>
           
-          {/* Stats Box */}
+
           <div className="bento-box bg-white text-black rounded-3xl p-8 border-2 border-black col-span-1 md:col-span-3 lg:col-span-6 relative overflow-hidden group transition-all duration-300 hover:scale-[1.02] hover:shadow-xl cursor-pointer hover:border-gray-600">
             <div className="absolute top-0 right-0 w-64 h-64 bg-gray-100 rounded-full blur-3xl opacity-50 transform translate-x-1/4 -translate-y-1/4 group-hover:opacity-70 group-hover:scale-110 transition-all duration-500"></div>
             <div className="relative z-10">
@@ -159,7 +159,7 @@ const About = () => {
             </div>
           </div>
           
-          {/* Services Box */}
+
           <div className="bento-box bg-black text-white rounded-3xl p-8 md:p-10 col-span-1 md:col-span-3 lg:col-span-4 row-span-1 relative overflow-hidden group transition-all duration-300 hover:scale-105 hover:shadow-2xl cursor-pointer">
             <div className="absolute bottom-0 right-0 w-64 h-64 bg-gray-800 rounded-full blur-3xl opacity-20 transform translate-x-1/3 translate-y-1/3 group-hover:opacity-30 group-hover:scale-110 transition-all duration-500"></div>
             <div className="relative z-10">
@@ -194,7 +194,7 @@ const About = () => {
             </div>
           </div>
           
-          {/* Process Box */}
+
           <div id="" className="bento-box bg-white text-black rounded-3xl p-8 border-2 border-black col-span-1 md:col-span-3 lg:col-span-4 relative overflow-hidden group transition-all duration-300 hover:scale-105 hover:shadow-xl cursor-pointer hover:border-gray-600">
             <div className="absolute -bottom-20 -left-20 w-64 h-64 bg-gray-100 rounded-full blur-3xl opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500"></div>
             <div className="relative z-10">
@@ -240,7 +240,7 @@ const About = () => {
             </div>
           </div>
           
-          {/* Team Box */}
+
           <div className="bento-box bg-black text-white rounded-3xl p-8 md:p-10 col-span-1 md:col-span-3 lg:col-span-4 relative overflow-hidden group transition-all duration-300 hover:scale-105 hover:shadow-2xl cursor-pointer">
             <div className="absolute top-0 left-0 w-64 h-64 bg-gray-800 rounded-full blur-3xl opacity-20 transform -translate-x-1/3 -translate-y-1/3 group-hover:opacity-30 group-hover:scale-110 transition-all duration-500"></div>
             <div className="relative z-10">
@@ -267,7 +267,7 @@ const About = () => {
             </div>
           </div>
           
-          {/* Testimonial Box */}
+
           <div className="bento-box bg-white text-black rounded-3xl p-8 md:p-10 border-2 border-black col-span-1 md:col-span-6 lg:col-span-12 relative overflow-hidden group transition-all duration-300 hover:scale-[1.01] hover:shadow-xl cursor-pointer hover:border-gray-600">
             <div className="absolute bottom-0 right-0 w-64 h-64 bg-gray-100 rounded-full blur-3xl opacity-50 transform translate-x-1/4 translate-y-1/4 group-hover:opacity-70 group-hover:scale-110 transition-all duration-500"></div>
             <div className="relative z-10">
@@ -332,7 +332,7 @@ const About = () => {
             </div>
           </div>
           
-          {/* CTA Box */}
+
           <div className="bento-box bg-black text-white rounded-3xl p-8 md:p-10 col-span-1 md:col-span-6 lg:col-span-12 relative overflow-hidden group transition-all duration-300 hover:scale-[1.01] hover:shadow-2xl cursor-pointer">
             <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
               <div>

@@ -87,7 +87,9 @@ const Header = () => {
       LafleurTech
     </span>
   </a>
-</div>           {/* Menu btn navigation ke liye */}
+</div>        
+
+
             <button
               onClick={toggleMenu}
                className={`menu-button flex items-center space-x-2 ${textColor} ${hoverColor} transition-colors duration-300 group`}
@@ -102,19 +104,21 @@ const Header = () => {
             </div>
         </div>
       </header>    
-        {/* Desktop navigation inside menu */}
+
       {isMenuOpen && (
         <div 
           className="backdrop-enter hidden md:block fixed inset-0 z-40 backdrop-blur-xs backdrop-brightness-90 backdrop-contrast-125 bg-white/5 transition-all duration-700 ease-out"
           onClick={closeMenu}
         />
-      )}      {/* Menu Overlay - Responsive Width */}
+      )}      
+      
       <div className={`menu-overlay fixed top-0 right-0 w-full md:w-1/2 h-full z-50 bg-white bg-opacity-95 backdrop-blur-sm transition-transform duration-500 ease-in-out ${
         isMenuOpen ? 'transform translate-x-0' : 'transform translate-x-full'
       }`}>
-        {/* Desktop view me social media and navigation alag row me */}
+
         <div className="hidden md:flex h-full">
-          {/* Left Column - Social Media */}
+
+
           <div className="w-1/2 p-8 pt-20 border-r border-gray-200">            <div className="mb-8">
               <h3 className="section-header text-gray-400 text-xs font-medium mb-6 uppercase tracking-wider">Social media</h3>
               <nav className="space-y-4">
@@ -135,7 +139,8 @@ const Header = () => {
               </nav>
             </div>            
             
-            {/* contact Get in touch */}
+
+
             <div>
 
               <h3 className="section-header text-gray-400 text-xs font-medium mb-4 uppercase tracking-wider">Get in touch</h3>
@@ -145,8 +150,9 @@ const Header = () => {
             </div>
           </div>
 
-          {/* Right Column - Menu */}
-          <div className="w-1/2 p-8 pt-20">            {/* Close Button */}
+
+
+          <div className="w-1/2 p-8 pt-20">            
             <button
               onClick={closeMenu}
 
@@ -184,7 +190,6 @@ const Header = () => {
               </nav>
             </div>
 
-            {/* Our workflow */}
             <div>
               <a href="#will think" onClick={closeMenu} className="workflow-link text-lg text-black hover:text-black transition-colors duration-300">
                 Our workflow
@@ -192,7 +197,6 @@ const Header = () => {
             </div>
           </div>
 
-          {/* Logo in menu - mobile view */}
           <div className="absolute top-6 left-8">
             <div className="text-xl font-bold text-black">
               LafleurTech
@@ -200,9 +204,7 @@ const Header = () => {
           </div>
         </div>
 
-        {/* Mobile Layout - Single Column */}
         <div className="md:hidden flex flex-col h-full">      
-              {/* Menu Header */}
           <div className="flex justify-between items-center p-6 border-b border-gray-200">
             <div className="text-2xl font-bold text-black">
               LafleurTech
@@ -220,12 +222,10 @@ const Header = () => {
 
 
 
-          {/* Mobile Menu Content */}
 
 
           <div className="flex-1 p-6 overflow-y-auto">
 
-            {/* Menu Section */}
             <div className="mb-8">
 
 
@@ -258,23 +258,23 @@ const Header = () => {
               </nav>
             </div>
 
-            {/* Contact Section */}
             <div className="mb-8">
               <h3 className="section-header text-gray-400 text-xs font-medium mb-4 uppercase tracking-wider">Get in touch</h3>
               <a href="mailto:lafleurtech@gmail.com" className="email-link text-lg text-black hover:text-black transition-colors duration-300">
                 lafleurtech@gmail.com
               </a>
             </div>
-enu
 
-            {/* Workflow Section */}
+
+
             <div className="mb-8">
               <a href="#process" onClick={closeMenu} className="workflow-link text-lg text-black hover:text-black transition-colors duration-300">
                 Our workflow
               </a>
             </div>
 
-            {/* Social Media Section */}
+
+
             <div>
               <h3 className="section-header text-gray-400 text-xs font-medium mb-6 uppercase tracking-wider">Social media</h3>
               <nav className="grid grid-cols-2 gap-3">

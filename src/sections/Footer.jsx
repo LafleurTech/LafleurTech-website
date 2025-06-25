@@ -6,11 +6,11 @@ const Footer = () => {
   return (
     <footer id='details' className="bg-black text-white w-full">
       <div className="w-full">
-        {/* Main Footer Content */}
+
         <div className="w-full px-8 sm:px-12 lg:px-20 pb-16 lg:pb-20">
           <div className="max-w-none">
             
-            {/* Top Section - Brand Statement */}
+
             <div className="mb-16 text-center">
               <h2 className="text-6xl lg:text-8xl font-light mb-6 tracking-tight">
                 LafleurTech
@@ -22,10 +22,11 @@ const Footer = () => {
               </p>
             </div>
 
-            {/* Content Grid */}
+
+
             <div className="grid grid-cols-1 lg:grid-cols-4 gap-12 lg:gap-16 mb-16">
               
-              {/* Services */}
+
               <div>
                 <h3 className="text-sm uppercase tracking-[0.2em] text-gray-400 mb-6 font-medium">
                   Services
@@ -51,7 +52,8 @@ const Footer = () => {
                 </div>
               </div>
 
-              {/* Company */}
+
+
               <div>
                 <h3 className="text-sm uppercase tracking-[0.2em] text-gray-400 mb-6 font-medium">
                   Company
@@ -77,7 +79,8 @@ const Footer = () => {
                 </div>
               </div>
 
-              {/* Connect */}
+
+
               <div>
                 <h3 className="text-sm uppercase tracking-[0.2em] text-gray-400 mb-6 font-medium">
                   Connect
@@ -105,7 +108,8 @@ const Footer = () => {
                 </div>
               </div>
 
-                      {/* Contact  address*/}
+
+
               <div>
                 <h3 className="text-sm uppercase tracking-[0.2em] text-gray-400 mb-6 font-medium">
                   Contact
@@ -153,7 +157,7 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* Bottom Section */}
+
             <div className="border-t border-gray-800 pt-8">
               <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center space-y-6 lg:space-y-0">
                 <div className="text-gray-500 text-sm font-light">

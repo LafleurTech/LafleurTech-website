@@ -3,14 +3,14 @@ import React from 'react'
 const Ourservices = () => {
   return (
     <section id="services" className="relative bg-black min-h-screen pt-5 sm:pt-7 md:pt-8 lg:pt-11 xl:pt-13 w-full pb-16 sm:pb-20 md:pb-24 lg:pb-32 xl:pb-40 overflow-hidden">
-      {/* Background effects */}
+      {/* backgroumd effects */}
       <div className="absolute inset-0">
         <div className="absolute top-0 left-1/4 sm:left-1/3 w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-96 lg:h-96 xl:w-[40rem] xl:h-[40rem] bg-white/3 rounded-full blur-3xl sm:blur-[60px] lg:blur-[100px]"></div>
         <div className="absolute bottom-0 right-1/4 sm:right-1/3 w-28 h-28 sm:w-40 sm:h-40 md:w-56 md:h-56 lg:w-80 lg:h-80 xl:w-[35rem] xl:h-[35rem] bg-white/2 rounded-full blur-2xl sm:blur-[50px] lg:blur-[80px]"></div>
         <div className="absolute top-1/2 left-0 w-20 h-20 sm:w-32 sm:h-32 md:w-48 md:h-48 lg:w-[25rem] lg:h-[25rem] bg-white/1 rounded-full blur-xl sm:blur-[40px] lg:blur-[60px]"></div>
       </div>
       
-      {/* Full width container - no horizontal margins */}
+      {/* full width container - no horizontsl margins */}
       <div className="relative w-full h-full flex items-center justify-center px-0">
         <div className="bg-white rounded-t-2xl sm:rounded-t-3xl md:rounded-t-[3rem] lg:rounded-t-[4rem] xl:rounded-t-[5rem] p-6 sm:p-8 md:p-12 lg:p-16 xl:p-20 2xl:p-28 shadow-xl sm:shadow-2xl shadow-black/10 sm:shadow-black/20 w-full max-w-none">
           
@@ -31,10 +31,13 @@ const Ourservices = () => {
             </p>
           </div>
 
-          {/* Services Grid */}
+
+        
+        
+          {/* services */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-10 lg:gap-12 xl:gap-16 px-4 sm:px-6 md:px-8 lg:px-12">
             
-            {/* Service Card 1 */}
+            {/* service card 1 */}
             <div className="group relative">
               <div className="absolute -inset-2 sm:-inset-3 md:-inset-4 bg-gradient-to-br from-black/10 via-black/5 to-transparent rounded-2xl sm:rounded-3xl md:rounded-[2.5rem] transform rotate-1 group-hover:rotate-2 transition-all duration-700 opacity-0 group-hover:opacity-100"></div>
               <div className="relative bg-gradient-to-br from-white to-gray-50/50 border border-black/10 rounded-xl sm:rounded-2xl md:rounded-[2rem] p-6 sm:p-8 md:p-10 lg:p-12 hover:border-black/20 transition-all duration-700 hover:shadow-lg sm:hover:shadow-xl md:hover:shadow-[0_32px_64px_rgba(0,0,0,0.12)] hover:-translate-y-1 sm:hover:-translate-y-2 md:hover:-translate-y-3 backdrop-blur-sm">
