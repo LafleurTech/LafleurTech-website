@@ -195,7 +195,7 @@ This project is proprietary to LafleurTech. All rights reserved.
 
 <div align="center">
   <p>
-    <strong>Crafting Digital Experiences Since 2022</strong>
+    <strong>Crafting Digital Experiences Since 2024</strong>
   </p>
   <p>
     Made with ❤️ by the LafleurTech Team
