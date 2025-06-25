@@ -4,6 +4,7 @@ import About from './sections/About'
 import Logos from './sections/Logos'
 import Ourwork from './sections/Ourwork'
 import Ourservices from './sections/Ourservices'
+import Social from './sections/Social'
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
     <Logos/>
     <Ourwork/>
     <Ourservices/>
+    <Social/>
     </>
 
 )
