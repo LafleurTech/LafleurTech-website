@@ -5,6 +5,7 @@ import Logos from './sections/Logos'
 import Ourwork from './sections/Ourwork'
 import Ourservices from './sections/Ourservices'
 import Social from './sections/Social'
+import Footer from './sections/Footer'
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
     <Ourwork/>
     <Ourservices/>
     <Social/>
+    <Footer/>
     </>
 
 )
